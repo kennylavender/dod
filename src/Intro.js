@@ -35,8 +35,6 @@ Promise.all([
 		return obj
 	}, {})
 
-	// lightImage.style = 'background-image: url('+byId['light']+');'
-	// darkImage.style = 'background-image: url('+byId['dark']+');'
 	lightImage.setAttribute("style", "background-image:url("+byId['light']+");")
 	darkImage.setAttribute("style", "background-image:url("+byId['dark']+");")
 

@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:700,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,500);
 @import url(http://fonts.googleapis.com/css?family=IM+Fell+English+SC);
 
 *, *::after, *::before {
@@ -17,6 +17,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: #909090;
 	font-size: 16px;
+	font-weight: 300;
 }
 .fc-lighter {
 	color: #DDD;
@@ -54,7 +55,7 @@ img {
   max-width: 100%;
 }
 .fw-bold {
-	font-weight: 700
+	font-weight: 500
 }
 .important {
 	color: red;
@@ -256,6 +257,7 @@ l-pad-bottom-1 {
 	}
 }
 
+.section--dates,
 .section--description,
 .section--tickets,
 .section--details-other {
@@ -263,15 +265,19 @@ l-pad-bottom-1 {
 	padding: 32px 0;
 	text-align: center;
 }
+.section--dates {
+	/*background-color: #333;*/
+}
 .section--tickets {
 	background-color: #161616;
 }
 
-.details__tickets__subtitle {
+.border-bottom {
 	border-bottom: 1px solid #AAA;
 }
 
 @media screen and (min-width: 800px) {
+	.section--dates,
 	.section--description,
 	.section--tickets,
 	.section--details-other {
