@@ -9,6 +9,20 @@
     <title>Dreams of Darkness Haunted House</title>
   </head>
   <body>
+    <div id="notice" class="hide fs-1">
+        <div class="fw-bold">Online ticket sales have suspended for the night, tickets can still be purchased at the door. <a href="#notice-details" id="notice-details__toggle">Details</a></div>
+    </div>
+    <div id="notice-details" class="notice-details">
+        <p>
+            Due to limited internet availability at our location, we
+            are not able to reliably validate online tickets purchased after the event begins.
+       </p>
+       <p>
+            To make sure you have the smoothest experience possible, we have decided to suspend online ticket sales after 5pm on the night of.
+       </p>
+       <p>Thank you for your understanding.</p>
+       <button id="notice-details__close" class="button button--outline">Close</button>
+    </div>
     <div class="intro">
         <div id="animation" class="animation">
             <div id="light-background" class="light-background">
@@ -79,6 +93,7 @@
                                         <div class="l-pad-top-3 l-pad-bottom-3">
                                             <div class="fs-3 l-space-bottom-3 fw-bold border-bottom">Online</div>
                                             <div class="fs-2 l-space-bottom-2">Tickets can be purchased in advance from TicketLeap.</div>
+                                            
                                             <div class="fs-1"><span class="fw-bold important">Important:</span> Tickets purchased from TicketLeap are date specific, they must be used on the date specified. There are no refunds, make sure to read the <a href="https://dreams-of-darkness.ticketleap.com/haunted-house-2016/details" target="_blank">restriction/warning</a> before purchasing.</div>
                                             <div class="details__tickets__button l-space-top-2 l-space-bottom-2">
                                                 <a class="button button--outline button--fw" target="_blank" href="http://dreams-of-darkness.ticketleap.com/haunted-house-2016">Get Tickets Online</a>
@@ -87,6 +102,9 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div id="notice-details">
+                            
                         </div>
                         <!--
                         <div class="online-ticket-sale-notice l-space-bottom-3 l-space-top-3">
