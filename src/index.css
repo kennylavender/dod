@@ -328,3 +328,9 @@ l-pad-bottom-1 {
 		padding-bottom: 32px;
 	}
 }
+
+
+.ticket-vendors-notice {
+	max-width: 600px;
+	margin: 16px auto;
+}
