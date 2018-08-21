@@ -18,14 +18,16 @@ var x = new Date();
 var offset = x.getTimezoneOffset() / 60;
 
 var dates = [
-  {'start': Date.UTC(2017, 9, 6, 17 + offset, 0), end: Date.UTC(2017, 9, 6, 22 + offset, 30)},
-  {'start': Date.UTC(2017, 9, 7, 17 + offset, 0), end: Date.UTC(2017, 9, 7, 22 + offset, 30)},
-  {'start': Date.UTC(2017, 9, 13, 17 + offset, 0), end: Date.UTC(2017, 9, 13, 22 + offset, 30)},
-  {'start': Date.UTC(2017, 9, 14, 17 + offset, 0), end: Date.UTC(2017, 9, 14, 22 + offset, 30)},
-  {'start': Date.UTC(2017, 9, 20, 17 + offset, 0), end: Date.UTC(2017, 9, 20, 22 + offset, 30)},
-  {'start': Date.UTC(2017, 9, 21, 17 + offset, 0), end: Date.UTC(2017, 9, 21, 22 + offset, 30)},
-  {'start': Date.UTC(2017, 9, 27, 17 + offset, 0), end: Date.UTC(2017, 9, 27, 22 + offset, 30)},
-  {'start': Date.UTC(2017, 9, 28, 17 + offset, 0), end: Date.UTC(2017, 9, 28, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 8, 28, 17 + offset, 0), end: Date.UTC(2018, 9, 28, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 29, 17 + offset, 0), end: Date.UTC(2018, 9, 29, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 5, 17 + offset, 0), end: Date.UTC(2018, 9, 5, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 6, 17 + offset, 0), end: Date.UTC(2018, 9, 6, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 12, 17 + offset, 0), end: Date.UTC(2018, 9, 12, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 13, 17 + offset, 0), end: Date.UTC(2018, 9, 13, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 19, 17 + offset, 0), end: Date.UTC(2018, 9, 19, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 20, 17 + offset, 0), end: Date.UTC(2018, 9, 20, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 26, 17 + offset, 0), end: Date.UTC(2018, 9, 26, 22 + offset, 30)},
+  {'start': Date.UTC(2018, 9, 27, 17 + offset, 0), end: Date.UTC(2018, 9, 27, 22 + offset, 30)},
 ];
 
 if ( DEBUG ) dates.push(testDate)
