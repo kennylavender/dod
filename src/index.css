@@ -334,3 +334,8 @@ l-pad-bottom-1 {
 	max-width: 600px;
 	margin: 16px auto;
 }
+
+.ticket-description {
+	max-width: 600px;
+	margin: 16px auto 24px;
+}
