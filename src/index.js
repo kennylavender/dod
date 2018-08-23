@@ -14,9 +14,6 @@ testDate.start = testDate.start.setSeconds(testDate.start.getSeconds() - 1)
 testDate.end = new Date();
 testDate.end = testDate.end.setSeconds(testDate.end.getSeconds() + 30);
 
-var x = new Date();
-var offset = x.getTimezoneOffset() / 60;
-
 var dates = [
   {'start': Date.parse("05 Oct 2018 17:30:00 PDT"), end: Date.parse("05 Oct 2018 24:00:00 PDT")},
   {'start': Date.parse("06 Oct 2018 17:30:00 PDT"), end: Date.parse("06 Oct 2018 24:00:00 PDT")},
