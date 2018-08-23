@@ -18,8 +18,6 @@ var x = new Date();
 var offset = x.getTimezoneOffset() / 60;
 
 var dates = [
-  {'start': Date.UTC(2018, 8, 28, 17 + offset, 0), end: Date.UTC(2018, 9, 28, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 29, 17 + offset, 0), end: Date.UTC(2018, 9, 29, 22 + offset, 30)},
   {'start': Date.UTC(2018, 9, 5, 17 + offset, 0), end: Date.UTC(2018, 9, 5, 22 + offset, 30)},
   {'start': Date.UTC(2018, 9, 6, 17 + offset, 0), end: Date.UTC(2018, 9, 6, 22 + offset, 30)},
   {'start': Date.UTC(2018, 9, 12, 17 + offset, 0), end: Date.UTC(2018, 9, 12, 22 + offset, 30)},
