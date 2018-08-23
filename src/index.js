@@ -18,14 +18,14 @@ var x = new Date();
 var offset = x.getTimezoneOffset() / 60;
 
 var dates = [
-  {'start': Date.UTC(2018, 9, 4, 17 + offset, 0), end: Date.UTC(2018, 9, 5, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 5, 17 + offset, 0), end: Date.UTC(2018, 9, 6, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 11, 17 + offset, 0), end: Date.UTC(2018, 9, 12, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 12, 17 + offset, 0), end: Date.UTC(2018, 9, 13, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 18, 17 + offset, 0), end: Date.UTC(2018, 9, 19, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 19, 17 + offset, 0), end: Date.UTC(2018, 9, 20, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 25, 17 + offset, 0), end: Date.UTC(2018, 9, 26, 22 + offset, 30)},
-  {'start': Date.UTC(2018, 9, 26, 17 + offset, 0), end: Date.UTC(2018, 9, 27, 22 + offset, 30)},
+  {'start': Date.parse("05 Oct 2018 17:30:00 PDT"), end: Date.parse("05 Oct 2018 24:00:00 PDT")},
+  {'start': Date.parse("06 Oct 2018 17:30:00 PDT"), end: Date.parse("06 Oct 2018 24:00:00 PDT")},
+  {'start': Date.parse("12 Oct 2018 17:30:00 PDT"), end: Date.parse("12 Oct 2018 24:00:00 PDT")},
+  {'start': Date.parse("13 Oct 2018 17:30:00 PDT"), end: Date.parse("13 Oct 2018 24:00:00 PDT")},
+  {'start': Date.parse("19 Oct 2018 17:30:00 PDT"), end: Date.parse("19 Oct 2018 24:00:00 PDT")},
+  {'start': Date.parse("20 Oct 2018 17:30:00 PDT"), end: Date.parse("20 Oct 2018 24:00:00 PDT")},
+  {'start': Date.parse("26 Oct 2018 17:30:00 PDT"), end: Date.parse("26 Oct 2018 24:00:00 PDT")},
+  {'start': Date.parse("27 Oct 2018 17:30:00 PDT"), end: Date.parse("27 Oct 2018 24:00:00 PDT")},
 ];
 
 if ( DEBUG ) dates.push(testDate)
