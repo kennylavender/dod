@@ -1,0 +1,13 @@
+#sold-out-flag {
+	background: red;
+	width: 100%;
+	padding: 8px;
+	text-align: center;
+  color: #FFF;
+  display: none;
+}
+
+
+#sold-out-flag.is-visible {
+  display: block;
+}

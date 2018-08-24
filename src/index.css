@@ -22,12 +22,8 @@ body {
 	color: #DDD;
 }
 #notice {
-	position: fixed;
-	background: red;
-	top: 0;
-	left: 0;
+	background: rgb(71, 71, 71);
 	width: 100%;
-	z-index: 99;
 	padding: 8px;
 	text-align: center;
 	color: #FFF;

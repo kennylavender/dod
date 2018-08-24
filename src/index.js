@@ -5,8 +5,11 @@ import './bower_components/font-awesome/css/font-awesome.css'
 import './Intro.css'
 import './Intro.js'
 import Notice from './notice.js'
+import './init-firebase';
+import './sold-out-flag.css'
+import './sold-out-flag.js'
 
-var DEBUG = false;
+var DEBUG = true;
 
 var testDate = {};
 testDate.start = new Date();
