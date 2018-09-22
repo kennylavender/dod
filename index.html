@@ -10,26 +10,27 @@
   </head>
   <body>
     <div id="admin" class="admin is-signed-out">
+        <div class="admin-padding"><h2 class="admin-panel-title">Admin Panel</h2></div>
         <div class="admin-authentication-actions admin-padding hide-if-signed-out">
-            <button id="admin-sign-out-button">Sign Out</button>
+            <button id="admin-sign-out-button" class="admin-button">Sign Out</button>
         </div>
         <form id="admin-sign-in-form" class="hide-if-signed-in admin-padding">
             <span>
-                <label for="email">Email:</label><br>
-                <input type="email" name="email" />
+                <label for="email" class="admin-label">Email:</label><br>
+                <input type="email" name="email" class="admin-input" />
             </span>
             <br>
             <span>
-                <label for="password">Password:</label><br>
-                <input type="text" name="password" />
+                <label for="password" class="admin-label">Password:</label><br>
+                <input type="text" name="password" class="admin-input" />
             </span>
             <br><br>
-            <button type="submit" id="admin-sign-in-button" >Sign In</button>
+            <button type="submit" id="admin-sign-in-button" class="admin-button" >Sign In</button>
         </form>
         <div class="hide-if-signed-out">
             <div class="admin-padding">
-                <button id="show-sold-out-notice">Show Sold Out Notice</button>
-                <button id="hide-sold-out-notice">Hide Sold Out Notice</button>
+                Sold Out Notice: <br><button id="hide-sold-out-notice" class="admin-button">Hide</button> <button id="show-sold-out-notice" class="admin-button">Show</button>
+                
             </div>
         </div>
     </div>

@@ -1,5 +1,9 @@
 #admin {
   display: none;
+  background: #FFF;
+  border-bottom: 5px solid #AAA;
+  font-size: 1rem;
+  color: #333;
 }
 
 #admin.is-visible {
@@ -16,4 +20,25 @@
 
 .admin-padding {
   padding: 1rem;
+}
+
+.admin-panel-title {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.admin-button {
+  display: inline-block;
+  padding: 12px 8px;
+  line-height: 1;
+  margin: 4px 0;
+  color: #000;
+  font-size: 16px;
+  background: #CCC;
+  border: 1px solid #AAA;
+  width: 200px;
+}
+
+.admin-input {
+  margin: 4px 0;
 }
