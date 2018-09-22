@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "devDependencies": {
+    "prettier": "1.14.3",
     "react-scripts": "0.4.1"
   },
   "dependencies": {
@@ -15,6 +16,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prettier": "prettier --single-quote --trailing-comma es5 --write '{src/**/*.js, src/**/*.css}'",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
