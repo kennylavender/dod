@@ -9,6 +9,24 @@
     <title>Dreams of Darkness Haunted House</title>
   </head>
   <body>
+    <div id="admin" class="admin is-signed-out">
+        <div class="admin-authentication-actions admin-padding hide-if-signed-out">
+            <button id="admin-sign-out-button">Sign Out</button>
+        </div>
+        <form id="admin-sign-in-form" class="hide-if-signed-in admin-padding">
+            <label for="email">Email:</label>
+            <input type="email" name="email" />
+            <label for="password">Password:</label>
+            <input type="text" name="password" />
+            <button type="submit" id="admin-sign-in-button" >Sign In</button>
+        </form>
+        <div class="hide-if-signed-out">
+            <div class="admin-padding">
+                <button id="show-sold-out-notice">Show Sold Out Notice</button>
+                <button id="hide-sold-out-notice">Hide Sold Out Notice</button>
+            </div>
+        </div>
+    </div>
     <div id="sold-out-flag" class="fs-1">
         <div class="fw-bold">Tonight is Sold Out</div>
     </div>

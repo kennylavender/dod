@@ -8,6 +8,8 @@ import Notice from './notice.js'
 import './init-firebase';
 import './sold-out-flag.css'
 import './sold-out-flag.js'
+import './admin.css'
+import './admin.js'
 
 var DEBUG = true;
 

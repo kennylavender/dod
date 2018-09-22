@@ -1,0 +1,19 @@
+#admin {
+  display: none;
+}
+
+#admin.is-visible {
+  display: block;
+}
+
+#admin.is-signed-out .hide-if-signed-out {
+  display: none;
+}
+
+#admin.is-signed-in .hide-if-signed-in {
+  display: none;
+}
+
+.admin-padding {
+  padding: 1rem;
+}
