@@ -11,7 +11,7 @@ import './sold-out-flag.js';
 import './admin.css';
 import './admin.js';
 
-var DEBUG = true;
+var DEBUG = false;
 
 var testDate = {};
 testDate.start = new Date();
