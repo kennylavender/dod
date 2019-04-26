@@ -4,5 +4,12 @@
   "routes": [
     { "src": "/(.*)", "dest": "/build/$1"}
   ],
-  "alias": ["dreamsofdarkness.com", "thedreamsofdarkness.com", "reddinghaunt.com"]
+  "alias": [
+    "dreamsofdarkness.com",
+    "thedreamsofdarkness.com",
+    "reddinghaunt.com",
+    "www.dreamsofdarkness.com",
+    "www.thedreamsofdarkness.com",
+    "www.reddinghaunt.com"
+  ]
 }
