@@ -1,0 +1,7 @@
+{
+  "name": "dreams-of-darkness",
+  "version": 2,
+  "routes": [
+    { "src": "/(.*)", "dest": "/build/$1"}
+  ]
+}
