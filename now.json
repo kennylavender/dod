@@ -3,6 +3,5 @@
   "version": 2,
   "routes": [
     { "src": "/(.*)", "dest": "/build/$1"}
-  ],
-  "alias": ["dreamsofdarkness.com", "thedreamsofdarkness.com", "reddinghaunt.com"]
+  ]
 }
