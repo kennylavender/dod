@@ -4,6 +4,9 @@
   "routes": [
     { "src": "/(.*)", "dest": "/build/$1"}
   ],
+  "builds": [
+    { "src": "build/**/*", "use": "@now/static" }
+  ],
   "alias": [
     "dreamsofdarkness.com",
     "thedreamsofdarkness.com",
