@@ -21,36 +21,36 @@ testDate.end = testDate.end.setSeconds(testDate.end.getSeconds() + 30);
 
 var dates = [
   {
-    start: Date.parse('05 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('05 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('05 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('05 Oct 2019 24:00:00 PDT'),
   },
   {
-    start: Date.parse('06 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('06 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('06 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('06 Oct 2019 24:00:00 PDT'),
   },
   {
-    start: Date.parse('12 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('12 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('12 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('12 Oct 2019 24:00:00 PDT'),
   },
   {
-    start: Date.parse('13 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('13 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('13 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('13 Oct 2019 24:00:00 PDT'),
   },
   {
-    start: Date.parse('19 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('19 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('19 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('19 Oct 2019 24:00:00 PDT'),
   },
   {
-    start: Date.parse('20 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('20 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('20 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('20 Oct 2019 24:00:00 PDT'),
   },
   {
-    start: Date.parse('26 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('26 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('26 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('26 Oct 2019 24:00:00 PDT'),
   },
   {
-    start: Date.parse('27 Oct 2018 17:30:00 PDT'),
-    end: Date.parse('27 Oct 2018 24:00:00 PDT'),
+    start: Date.parse('27 Oct 2019 17:30:00 PDT'),
+    end: Date.parse('27 Oct 2019 24:00:00 PDT'),
   },
 ];
 
